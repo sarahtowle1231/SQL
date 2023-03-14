@@ -1,0 +1,10 @@
+CREATE TABLE groceries (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER ); 
+
+INSERT INTO groceries VALUES (1, "Bananas", 4); This adds to the columns and rows - 1 being the ID, text, and quanity) 
+INSERT INTO groceries VALUES (2, "Peanut Butter", 1);
+INSERT INTO groceries VALUES (3, "Dark chocolate bars", 2);
+SELECT * FROM groceries;
+
+--display the database ordered by quantity. 
+SELECT * FROM groceries
+ORDER BY quantity desc;
